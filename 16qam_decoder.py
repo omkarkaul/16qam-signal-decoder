@@ -53,6 +53,7 @@ def main():
 
         new_coord = (new_x, new_y)
         binary_message += coord_to_nibble(new_coord)
+        print(f"{coord} decodes as {coord_to_nibble(new_coord)}")
     
     count = 0
 
